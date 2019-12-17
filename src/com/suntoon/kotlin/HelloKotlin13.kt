@@ -2,7 +2,6 @@ package com.suntoon.kotlin
 
 // 类属性初始化另一种方式
 class Student (private val username: String, private val age: Int, private var address: String) {
-
     fun printInfo() {
         println("username: $username, age: $age, address: $address")
     }
@@ -29,4 +28,10 @@ class Student3 (val username: String = "zhangsan") {
 fun main(args: Array<String>) {
     var student = Student("liruipeng", 33, "WeiNan")
     student.printInfo()
+
+    var student3 = Student3()
+    println(student3.username)
+
+    var student4 = Student3("lisi")
+    println(student4.username)
 }
