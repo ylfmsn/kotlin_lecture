@@ -14,7 +14,6 @@ fun main(args: Array<String>) {
         max = y
         min = x
     }
-
     println("max: $max, min: $min")*/
 
     max = if (x > y) {
