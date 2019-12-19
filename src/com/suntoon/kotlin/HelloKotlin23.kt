@@ -1,7 +1,7 @@
 package com.suntoon.kotlin
 
 /**
- * 扩展，为了给类添加功能
+ * Kotlin支持 扩展，为了给类添加功能
  *
  * 扩展函数的解析是静态的
  *
