@@ -31,4 +31,16 @@ fun TheExtension.walk() {
 fun main(args: Array<String>) {
     var theExtension = TheExtension()
     theExtension.walk()
+
+    CC().foo()
+}
+
+class CC {
+    fun foo() {
+        println("member")
+    }
+}
+
+fun CC.foo() {
+    println("member2")
 }

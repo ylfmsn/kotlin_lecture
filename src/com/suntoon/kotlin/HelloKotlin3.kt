@@ -33,5 +33,4 @@ fun main(args: Array<String>) {
     }
 
     println("max: $max, min: $min")
-
 }
