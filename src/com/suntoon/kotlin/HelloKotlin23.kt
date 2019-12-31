@@ -44,3 +44,11 @@ class CC {
 fun CC.foo() {
     println("member2")
 }
+
+fun Any?.toString(): String {    // 对于可空类型进行扩展
+    if(null == this) {
+        return "null"
+    }
+
+    return toString()
+}
