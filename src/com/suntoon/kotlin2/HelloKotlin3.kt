@@ -64,9 +64,7 @@ class MyClass<out T, in M>(t: T, m: M) {
         this.m = m
     }
 
-    fun get(): T {
-        return this.t
-    }
+    fun get(): T = this.t
 
     fun set(m: M) {
         this.m = m
