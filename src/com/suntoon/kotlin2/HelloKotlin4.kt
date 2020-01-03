@@ -2,7 +2,7 @@ package com.suntoon.kotlin2
 
 import kotlin.test.assertTrue
 
-// 在Kotlin中： Consumer in, Producer out
+// 在Kotlin中： Consumer in --逆变, Producer out --协变
 
 class ParameterizedClass<A>(private val value: A) {
     fun getValue(): A {
